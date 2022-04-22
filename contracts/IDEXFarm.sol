@@ -272,5 +272,5 @@ contract IDEXFarm is Ownable {
 
   function withdrawRewardToken(uint256 _amount) external onlyOwner {
     rewardToken.transfer(msg.sender, _amount);
-  }
+  } 
 }
